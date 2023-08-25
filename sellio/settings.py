@@ -1,5 +1,3 @@
-ALLOWED_HOSTS = ['.vercel.app']
-
 """
 Django settings for sellio project.
 
@@ -27,7 +25,7 @@ SECRET_KEY = 'django-insecure-ta-n7w47$!1e+!$y!-rg_+v$0v@$qsis=a8jq=uvtq*3ssi5hv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
