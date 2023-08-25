@@ -1,3 +1,5 @@
+ALLOWED_HOSTS = ['.vercel.app']
+
 """
 Django settings for sellio project.
 
